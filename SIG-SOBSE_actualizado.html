@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport"/>
+<title>SIG-SOBSE · Sistema de Información Geográfica</title>
+<style>
+  :root {
+    --guinda:#691C32; --verde:#006341; --dorado:#C5A572; --gris-claro:#E4E0DD; --gris-oscuro:#333; --blanco:#fff;
+  }
+  body { margin:0; padding:0; background:var(--gris-claro); color:var(--gris-oscuro); font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; }
+  header { background:var(--blanco); border-bottom:4px solid var(--guinda); position:sticky; top:0; z-index:10; }
+  .top { max-width:1100px; margin:0 auto; padding:10px 14px; display:flex; align-items:center; justify-content:space-between; }
+  .titles h1 { margin:0; font-size:22px; color:var(--guinda); }
+  .titles p { margin:0; font-size:12px; opacity:.85; }
+  .container { max-width:1100px; margin:0 auto; padding:18px 14px; }
+  .hero { background:linear-gradient(135deg,rgba(105,28,50,.06),rgba(0,99,65,.06)); border:1px solid #e7e2e0; border-radius:16px; padding:20px; }
+  .btn { background:var(--guinda); color:#fff; text-decoration:none; padding:10px 14px; border-radius:999px; font-weight:700; display:inline-block; }
+  iframe { width:100%; border:none; border-radius:16px; height:720px; }
+  footer { text-align:center; font-size:11px; color:#666; padding:14px; }
+</style>
+</head>
+<body>
+<header>
+<div class="top">
+<div class="titles">
+<h1>SIG-SOBSE · Sistema de Información Geográfica</h1>
+<p>Secretaría de Obras y Servicios · Gobierno de la Ciudad de México</p>
+</div>
+</div>
+</header>
+<main class="container">
+<section class="hero">
+<h2 style="color:var(--guinda);margin-top:0;">🗺️ SIG SOBSE CDMX</h2>
+<p>Visualización interactiva del <b>Sistema de Información Geográfica</b> de la Secretaría de Obras y Servicios (SOBSE).</p>
+<iframe allowfullscreen="" loading="lazy" src="https://experience.arcgis.com/experience/842e88e854874511baf245481ee837ed/"></iframe>
+<div style="text-align:center; margin-top:20px;">
+<a class="btn" href="https://experience.arcgis.com/experience/842e88e854874511baf245481ee837ed/" style="background:var(--dorado); color:#fff;" target="_blank">
+    Consulta en pantalla completa
+  </a>
+</div>
+
+</section>
+<section class="hero" style="margin-top:24px;">
+<h2 style="color:var(--verde);">📊 Próximas Integraciones</h2>
+<ul>
+<li>Indicadores y gráficas interactivas</li>
+<li>Reportes técnicos</li>
+<li>Capas temáticas adicionales</li>
+</ul>
+</section>
+</main>
+<footer>© 2025 Secretaría de Obras y Servicios · Gobierno de la Ciudad de México</footer>
+</body>
+</html>
